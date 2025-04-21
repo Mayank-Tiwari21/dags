@@ -1,0 +1,1 @@
+select count(*),dept from tt group by dept;

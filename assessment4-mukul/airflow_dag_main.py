@@ -4,7 +4,7 @@ import sys
 import boto3
 #libraries for the amazon services
 from airflow.providers.amazon.aws.operators.lambda_function import LambdaInvokeFunctionOperator
-from airflow.providers.amazon.aws.operators.glue_crawler import GlueCrawlerOperator ,
+from airflow.providers.amazon.aws.operators.glue_crawler import GlueCrawlerOperator 
 from airflow.providers.amazon.aws.operators.glue import GlueJobOperator
 from airflow.providers.amazon.aws.operators.athena import AthenaOperator
 from airflow.providers.amazon.aws.operators.emr import EmrAddStepsOperator
